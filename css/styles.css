@@ -232,12 +232,22 @@ ul {
 }
 
 /* servises */
+.servises-list {
+    display: flex;
+}
+
+.servises-item {
+    border: 1px solid var(--border-color);
+    padding: 61px 117px 79px 61px;
+}
+
 .servises-title {
     font-size: 29px;
     line-height: calc(40 / 29);
 
 
     color: var(--acent-color);
+    margin-bottom: 10px;
 }
 
 .servises-text {
@@ -246,6 +256,7 @@ ul {
 
 
     color: var(--info-color);
+    margin-bottom: 5px;
 }
 
 .servises-text-bottom {
@@ -254,4 +265,10 @@ ul {
 
 
     color: var(--info-color);
+}
+
+.servises-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
 }
